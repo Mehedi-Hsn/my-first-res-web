@@ -1,0 +1,157 @@
+/* Mobile devices */
+@media (max-width: 576px) {
+  .hero_nav {
+    height: 400px;
+    main {
+      width: 90%;
+      margin-top: 150px;
+    }
+  }
+
+  .start {
+    height: auto;
+    .something_1st,
+    .something_2nd {
+      position: relative;
+      top: 0;
+      left: 0;
+      margin-bottom: 50px;
+    }
+  }
+
+  .feed {
+    .col-md-4 {
+      padding: 10px;
+      overflow: hidden;
+    }
+  }
+
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 5px;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    margin-bottom: 15px;
+  }
+
+  .buy {
+    padding: 30px;
+    .badge {
+      padding: 5px 10px;
+    }
+    .btn {
+      padding: 10px;
+    }
+  }
+
+  footer {
+    padding: 50px 20px;
+    margin-top: 60px;
+    background-color: #192431;
+    border-top: 2px solid #fff;
+
+    .two_section {
+      padding-left: 0;
+    }
+    .first_section {
+      margin-top: 340px;
+    }
+    h4 {
+      margin-bottom: 15px;
+      margin-top: 40px;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+/* Tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero_nav {
+    height: 600px;
+    main {
+      width: 80%;
+      margin-top: 180px;
+    }
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .feed {
+    .col-md-4 {
+      padding: 15px;
+      overflow: hidden;
+    }
+  }
+
+  .buy {
+    padding: 80px;
+  }
+
+  footer {
+    margin-top: 300px;
+  }
+  h4 {
+    margin-bottom: 15px;
+    margin-top: 200px;
+  }
+  p {
+    margin-bottom: 15px;
+  }
+}
+
+/* Larger devices */
+@media (min-width: 769px) {
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 1.75em;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 25px;
+  }
+
+  .hero_nav {
+    height: 800px;
+  }
+  main {
+    width: 500px;
+  }
+}
+
+.buy {
+  padding: 100px;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 150px 20px;
+}
